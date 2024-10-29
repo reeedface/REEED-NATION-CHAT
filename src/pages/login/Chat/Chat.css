@@ -1,0 +1,18 @@
+.chat {
+    min-height: 100vh; 
+    background: linear-gradient(to bottom, #596AFF, #383699); 
+    place-items: center;
+}
+
+.chat-container {
+    width: 95%;
+    height: 100vh;
+    max-width: 2000px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    gap: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
